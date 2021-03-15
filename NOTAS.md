@@ -53,4 +53,41 @@ git add NOMBRE_CARPETA
 git add *   # Este no incluye carpetas ocultas
 git add .   # Este incluye carpetas ocultas
 
+## git rm --cached
+Permite sacar cosas del area de staging...
+Hace que mis ficheros ya no sean controlados por el SCM
+
+## git rm 
+Elimina el fichero:
+    - De mi carpeta local: WORKSPACE
+    - Del área de Staging
+    - Del repo del SCM en la version actual
+
+
+git config --global user.name "Ivan"
+git config --global user.email ivan.osuna.ayuste@gmail.com
+
+
+Reescribir la historia del proyecto
+
+
+Estoy haciendo Funcionalidad 1
+    trabajo...
+    trabajo...
+        Llamada de telefono.... Cambia una cosa en producción que está fallando
+    Quiero guarda aquello... por que? COMMIT 1 - Parcial (No está acabado)
+        LO SUBO PERO NO ESTA ACABADO PERO ME VOY A LA CAMA
+    trabajo...
+    trabajo...
+    Quiero guarda aquello... por que? COMMIT 2 - Parcial (No está acabado)
+        LO SUBO PERO NO ESTA ACABADO PERO ME VOY A LA CAMA
+    trabajo...
+    trabajo...
+    Quiero guarda aquello... por que? COMMIT 3 - Parcial (No está acabado)
+        LO SUBO QUE YA ESTA GUAY !!!! 
+    ----> PUSH
+    Los 3 commits, empaquetalos en uno único. con el mensaje:
+        FUNCIONALIDAD R0098:
+            Incorp...
+
 
